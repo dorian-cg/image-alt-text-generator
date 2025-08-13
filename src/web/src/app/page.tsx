@@ -1,6 +1,6 @@
 "use client";
 
-import { Alert, Box, Button, Card, Container, Flex, Heading, Image, Spinner } from "@chakra-ui/react"
+import { Alert, Box, Button, Card, Flex, Heading, Image, Spinner } from "@chakra-ui/react"
 import { useCallback, useState } from 'react';
 import { ImageUploader } from './components/ImageUploader';
 
