@@ -1,7 +1,6 @@
 # Image Alt Text Generator
 Image alternative text generator, uses C# .NET 8 with [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview) along with Open AI's [o4-mini](https://openai.com/index/introducing-o3-and-o4-mini/) model for the backend and [Next](https://nextjs.org) with [Chakra UI](https://chakra-ui.com) for the frontend.
 
-
 ## Installation setup
 
 ### 1. Install software
@@ -33,8 +32,7 @@ code ./image-alt-text-generator/src/api/appsettings.json
 // appsettings.json
 {
   "AzureOpenAIChatCompletion": {
-    "DeploymentName": "o4-mini",
-    
+    "DeploymentName": "o4-mini",    
     "ApiKey": "<YOUR_API_KEY>", // replace <YOUR_API_KEY> with your own key
     "Endpoint": "https://<YOUR_SERVICE_NAME>.openai.azure.com" // replace <YOUR_SERVICE_NAME> with your own service name
   }
