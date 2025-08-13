@@ -54,7 +54,7 @@ export default function Home() {
       direction="column"
       align="center"
       justify="center">
-      <Heading as="h1" size="6xl" mt="16" mb="16">🖼️ Image Alt Text Service</Heading>
+      <Heading as="h1" size="6xl" mt="16" mb="16">🖼️ Image Alt Text Generator</Heading>
       <ImageUploader onFilesChange={setImages} disabled={isGenerating} />
       <Button mb="16" disabled={isGenerating} onClick={onGenerateClick}>{isGenerating ? "Generating" : "Generate"}</Button>
       {isGenerating && (
